@@ -47,10 +47,10 @@ main{
 }
 
 .item-topbar{
-    margin: 10px;
+    margin: 10px 6px;
     background-color: grey;
     border-radius: 5px;
-    padding: 6px;
+    padding: 4px;
     font-size: 10px;
 }
 
