@@ -69,9 +69,9 @@ main{
 }
 
 .box {
-    height: 150px;
-    width: 200px;
-    background-color: aqua;
+    display: flex;
+    height: calc(100% / 6);
+    width: calc(100% / 6);
     margin: 5px;
     position: relative;
 }
