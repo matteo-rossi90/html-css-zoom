@@ -9,23 +9,20 @@
 
 #container-main{
     width: 100%;
-    height: 100vh;
-    /* display: flex; */
-    /* flex-direction: column; */
-    /* align-items: flex-start; */
 }
 
 #container{
     margin: 0 auto;
-    width: 80%;
+    width: 90%;
 }
 
-body{
-    background-color: black;
-}
+/* body{ */
+    /* background-color: black; */
+/* } */
 
 .navbar{
     width: 100%;
+    flex-shrink: 1;
 }
 
 main{
@@ -36,7 +33,7 @@ main{
 /* proprietà barra di navigazione in alto */
 #top-nav{
     height: 40px;
-    background-color: rgb(255, 0, 0);
+    background-color: rgb(0, 0, 0);
 }
 
 .content-navbar{
@@ -51,19 +48,31 @@ main{
     background-color: orange;
 }
 
-main{
-    height: 100vh;
+.text-name{
+    font-size: 12px;
 }
 
-.box{
+/* proprietà parte centrale */
+#flex-content{
+    height: 100%;
+    overflow-y:auto;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    align-items:flex-start;
+    margin: 30px 0;
+}
+
+.box {
+    display: flex;
     height: 100px;
     width: 150px;
-    background-color:aqua;
-    margin: 10px;
+    background-color: aqua;
+    margin: 5px;
     position: relative;
 }
 
-.name-box{
+.name-box {
     height: 20px;
     width: 60px;
     background-color: pink;
@@ -72,24 +81,12 @@ main{
     left: 0;
 }
 
-.text-name{
-    font-size: 12px;
-}
-
-/* proprietà parte centrale */
-#flex-content{
-    display: flex;
-    flex-wrap:wrap;
-    align-items:flex-start;
-    margin: 30px 0;
-}
-
 /* proprietà barra di navigazione in basso */
 #bottom-nav{
     height: 60px;
-    background-color: rgb(93, 0, 255);
+    background-color: #222222;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
 }
 
